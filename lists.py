@@ -5,7 +5,7 @@ data = [13, 29, 37, 49, 29, 7, 25, 5, 50, 2, 18, 0, 14, 16, 14, 4, 6, 14, 2, 5, 
 
 # 1.1
 
-print(list(set(data)))
+print(print([num for num in data if data.count(num) == 1]))
 
 # 1.2
 
